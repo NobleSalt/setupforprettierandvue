@@ -1,0 +1,27 @@
+{
+  "editor.tabSize": 2,
+  "editor.autoIndent": "full",
+  "editor.detectIndentation": true,
+  "prettier.singleQuote": true,
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-expand-multiline"
+    },
+    "prettyhtml": {
+      "printWidth": 100,
+      "singleQuote": false,
+      "wrapAttributes": false,
+      "sortAttributes": false
+    },
+    "prettier": {
+      "singleQuote": true,
+      "semi": false
+    }
+  },
+  "prettier.bracketSpacing": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
